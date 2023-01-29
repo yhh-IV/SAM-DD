@@ -1,25 +1,114 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>SAM-DD Dataset</title>
-<style type="text/css">
-body
-{ 
-background: url("images/background.jpg") no-repeat center center fixed; 
--webkit-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-</style>
-</head>
-<body>     
+<html lang="en-us">
 
-<div id="container" style="width:1500px; margin:0, auto;">
-<div id="header" style="clear:both; text-align:center;">
-<h1 style="font-weight: bold; font-size: 2.5rem">Singapore AutoMan@NTU <br>
-Distracted Driving (SAM-DD) Dataset </h1></div>  
-     
-</div>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>Distracted Driving (SAM-DD) Dataset</title>
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <!-- <script type="text/javascript" async="" src="./src/analytics.js"></script> -->
+    <!-- <script src="./src/jquery-3.3.1.slim.min.js"></script> -->
+    <!-- <script src="./src/popper.min.js"></script> -->
+    <script src="./src/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <script src="./src/MathJax.js" id=""></script>
+    <link rel="stylesheet" href="./src/pure-min.css">
+    <link rel="stylesheet" href="./src/title.css">
+    <link rel="stylesheet" href="./src/MathJax.js">
+</head>
+
+<body>
+    <div class="body">        
+        <div class="header">
+            <div class="title"> Singapore AutoMan@NTU<br>Distracted Driving (SAM-DD) Dataset </div>
+            <div class="authors"> Haohan Yang, Haochen Liu, Zhongxu Hu, Chen Lv<br>
+                Nanyang Technological University <br> </div>
+            <!-- 更改邮箱链接 -->
+            <div class="contact"> <a href="mailto:name@email.com"> &#9993 YangHaohan@mail.com </a> </div>
+        </div>
+        <div class="title-body container">
+            <h1> Datasets </h1>
+            <table class="versions-table pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th> </th>
+                        <th colspan="4"> SAM-DD </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Features </td>
+                        <td colspan="4">
+                            <ul>
+                                <li>The SAM-DD dataset contains high-quality multi-modal information, i.e., RGB and depth, which can improve the model’s reliability against various driving environments. </li>
+                                <li>The SAM-DD dataset is mainly for intelligent driving research in the laboratory, including driving takeover systems, remote driving, and control strategies involving driver states, etc.</li>
+                                <li>SAM-DD dataset is large enough for training learning-based models from scratch. Also, researchers can conveniently migrate the trained model to targeted downstream tasks.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Illustration </td>
+                        <ul>
+                            <td> <img src="./img/1.jpg" alt=""> </td>
+                            <td> <img src="./img/2.jpg" alt=""> </td>
+                            <td> <img src="./img/3.jpg" alt=""> </td>
+                            <td> <img src="./img/4.jpg" alt=""> </td>                            
+                        </ul>
+                    </tr>
+                    <tr>
+                        <td> Download link </td>
+                            <td colspan="4"> <a href="https://abouelnaga.io/files/Distracted_Driver_Dataset_V1_License_Agreement.pdf">License Agreement V1</a> </td>     
+                    </tr>
+                    <tr>
+                        <td> Publication </td>
+                        <td colspan="4">
+                            <ul>
+                                <li class="pub"> Driver Distraction Detection: A Supervised Contrastive Learning Approach</li>
+                            </ul>
+                        </td>
+                    </tr>                    
+                </tbody>
+            </table>
+            <h1>Terms &amp; Conditions</h1>
+            <ul>
+                <li>The dataset is the sole property of the AutoMan group at the Nanyang Technological University and is protected by copyright. The dataset shall remain the exclusive property of AutoMan.</li>
+                <li>The End User acquires no ownership, rights, or title of any kind in all or parts regarding the dataset.</li>
+                <li>Any commercial use of the dataset is strictly prohibited. Commercial use includes, but is not limited to: Testing commercial systems; Using screenshots of subjects from the dataset in advertisements, Selling data or making any commercial use of the dataset, broadcasting data from the dataset.</li>
+                <li>The End User shall not, without prior authorization of the AutoMan group, transfer in any way, permanently or temporarily, distribute or broadcast all or part of the dataset to third parties.</li>
+                <li>The End User shall send all requests for the distribution of the dataset to the AutoMan group.</li>
+                <li>All publications that report on research that uses the dataset should cite our publications.</li>
+            </ul>
+            <h1>Institutions</h1> 
+            Our work is being used by researchers across academia and research labs in X countries and XX institutions:
+            <div class="affiliations">
+                <div class="imageWrapper"> <img src="./img/Nanyang_Technological_University_coat_of_arms_vector.svg"
+                        class="image">
+                    <p class="title">The American University in Cairo</p>
+                    <p class="region">Singapore</p>
+                </div>
+                <!-- 复制下面内容并取消注释添加机构 -->
+                <!-- 注释
+                <div class="imageWrapper"> <img src="./img/图片文件名"
+                        class="image">
+                    <p class="title">机构名</p>
+                    <p class="region">国家</p>
+                </div>     
+                注释 -->
+                            
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer">
+            <hr>
+            <p> © AutoMan@NTU </p>
+        </div>
+    </div>
+    <!-- <script async="" src="./src/index.js"></script> -->
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag("js", new Date()); gtag("config", "UA-108472048-1");</script>
 </body>
+
 </html>
