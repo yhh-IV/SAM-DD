@@ -1,4 +1,4 @@
 # SAM-DD
 Singapore AutoMan@NTU Distracted Driving Dataset
 
-website: yanghh.io/SAM-DD/
+website: https://yanghh.io/SAM-DD/
